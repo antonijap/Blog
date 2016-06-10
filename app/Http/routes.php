@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PostsController@home');
+Route::get('posts/{post}', 'PostsController@showSinglePost');
